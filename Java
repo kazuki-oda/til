@@ -1,2 +1,5 @@
 出力の仕方  
-System.out.println("Hello World");
+System.out.println("Hello World");  
+変数の定義の仕方  
+int number String name等  
+
