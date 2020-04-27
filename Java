@@ -4,7 +4,7 @@ System.out.println("Hello World");
 int number String name等  
 int型同士の計算の仕方  
 キャスト  
-`int number1 = 9;
- int number2 = 2;
- System.out.println((double)number1 / number2);`  
+int number1 = 9;
+int number2 = 2;
+System.out.println((double)number1 / number2);  
 出力は4.5となる。
