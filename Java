@@ -7,4 +7,18 @@ int型同士の計算の仕方
 int number1 = 9;
 int number2 = 2;
 System.out.println((double)number1 / number2);  
-出力は4.5となる。
+出力は4.5となる。  
+引数
+class Main {  
+  public static void main (String[] args) {  
+    printData("an");  
+    printData("brian");  
+  }  
+  public static void printData(String name){  
+    System.out.println("私の名前は" + name + "です");  
+  }  
+}  
+私の名前はanです  
+私の名前はbrianですが出力される。  
+
+    
