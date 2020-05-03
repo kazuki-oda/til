@@ -21,5 +21,15 @@ class Main {
 私の名前はanです  
 私の名前はbrianですが出力される。  
 同じ名前のメソッドは使えない。ただ引数の数や型等が違えば同じ名前のメソッドが使える。  
-
-    
+コンソールに入力された文字列を受け取り出力する  
+import java.util.Scanner;  
+class Main {  
+  public static void main(String[] args) {  
+    Scanner scanner = new Scanner(System.in);  
+    String nane = scanner.next();  
+    System.out.println(name);
+  }  
+}  
+数値はscanner.nextInt();  
+小数はscanner.nextDouble();  
+でコンソールから値を受け取ることができる。  
