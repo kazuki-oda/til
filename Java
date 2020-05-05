@@ -33,3 +33,5 @@ class Main {
 数値はscanner.nextInt();  
 小数はscanner.nextDouble();  
 でコンソールから値を受け取ることができる。  
+インスタンスメソッドhelloを定義する  
+public void hello() {  
