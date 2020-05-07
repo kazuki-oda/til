@@ -35,3 +35,9 @@ class Main {
 でコンソールから値を受け取ることができる。  
 インスタンスメソッドhelloを定義する  
 public void hello() {  
+クラスフィールドの具体例  
+class Person {  
+  public static int count;←クラスフィールド  
+  public String firstName;  
+  public String lastName;←インスタンスフィールド  
+  
