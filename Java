@@ -40,4 +40,5 @@ class Person {
   public static int count;←クラスフィールド  
   public String firstName;  
   public String lastName;←インスタンスフィールド  
-  
+publicをprivateに替えるとクラス外からアクセスができなくなる。  
+getNumber等にするとクラス外からアクセスすることが出来るようになる。  
